@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3d3d3"
+    android:gravity="center"
+    android:padding="20dp" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/rl_welcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" >
+
+               
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img_welcome"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="常见问题"
+                    android:textSize="30sp"
+                    android:typeface="monospace" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rl_welcome"
+                android:gravity="left"
+                android:lineSpacingExtra="5dp"
+                android:lineSpacingMultiplier="1.4"
+                android:text="\n			人在鲁大客户端能做什么？\n			人在鲁大客户端是一款面像鲁东大学全校学生服务的产品。在这里您可以免费发布、查询和浏览生活、学习、娱乐信息。每天拥有大量的信息供您挑选
+其服务覆盖校园生活各个领域，提供新闻资讯、二手买卖、餐饮娱乐等校园信息，便捷您的生活。
+\n			使用人在鲁大客户端是否收费？\n			人在鲁大客户端完全免费，在使用中产生的上网流量费用由网络运营商收取。不同地区的流量费用有所不同，建议您选择流量包月。详情可拨打10086（移动用户）或10010（联通用户）咨询。
+\n			有网络的情况下，出现网络失败是什么原因？\n				1、如果当前网络连接是GPRS，请确认网络信号稳定和手机无欠费通讯正常；\n				2、如果当前网络连接是WIFI,请确认WIFI信号稳定且联网正常。	
+
+\n\n博客园地址：http://www.cnblogs.com/yijianzhongqing/"
+                android:textSize="12sp"
+                android:typeface="monospace" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

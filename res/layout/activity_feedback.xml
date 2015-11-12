@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:padding="20dp"
+    android:gravity="center" >
+    
+    <TextView 
+        android:id="@+id/chang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:typeface="monospace"
+        android:text="意见反馈"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/chang"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="29dp"
+        android:text="确定"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_feedback"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chang"
+        android:layout_below="@+id/chang"
+        android:layout_marginTop="21dp"
+        android:background="@android:drawable/edit_text"
+        android:ems="10"
+        android:enabled="true"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:maxLines="12"
+        android:minLines="8"
+        android:scrollbars="vertical" >
+
+        <requestFocus />
+    </EditText>
+    
+</RelativeLayout>

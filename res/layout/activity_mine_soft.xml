@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3d3d3"
+    android:gravity="center"
+    android:padding="20dp" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/rl_welcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" >
+
+                <ImageView
+                    android:id="@+id/img_welcome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/shape_radius"
+                    android:contentDescription="欢迎登陆"
+                    android:src="@drawable/luda" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img_welcome"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="鲁大校园\nVersion 1.0"
+                    android:textSize="12sp"
+                    android:typeface="monospace" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rl_welcome"
+                android:gravity="left"
+                android:lineSpacingExtra="5dp"
+                android:lineSpacingMultiplier="1.4"
+                android:text="\n 	鲁东大学坐落在“中国最佳魅力城市”——烟台,\n是一所以文理工为主体、多学科协调发展的省重点建设高校。2012年，成为首批“山东省应用型人才培养特色名校”、服务国家特殊需求博士人才培养项目单位。原文化部部长、著名作家王蒙评价鲁东大学“人杰校灵”。
+	\n	学校地址：山东省烟台市芝罘区红旗中路186号邮编：264025 
+\n	鲁东大学办公室电话：0535—6672723 6681128传真：0535—6014101 
+\n	招生就业处电话：0535—6672791(招生) 0535—6672456(就业)"
+                android:textSize="12sp"
+                android:typeface="monospace" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

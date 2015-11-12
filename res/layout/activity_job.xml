@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/header_home" />
+
+    <com.example.ui.ListScrollView
+        android:id="@+id/listScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/fl_image_ads"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#ffDEDEDE"
+                android:padding="5dp"
+                android:visibility="gone" >
+
+                <com.example.ui.AutoScrollViewPager
+                    android:id="@+id/view_pager"
+                    android:layout_width="400dp"
+                    android:layout_height="100dp" >
+                </com.example.ui.AutoScrollViewPager>
+
+                <ImageButton
+                    android:id="@+id/btn_hide_ads"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="right|center"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/ic_banner_hide" />
+            </FrameLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+			<TableLayout
+			    android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <!-- 校园新闻 -->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="30dp"
+                    android:text="兼职信息"
+                    android:textColor="#2F4F4F"
+                    android:textSize="18sp" />
+                
+               
+                			
+              <Button
+       			    android:id="@+id/job_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="48.0dip"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/btn_login_selector"
+                    android:gravity="center"
+                    android:text="发布兼职信息"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+                
+                
+                </TableLayout>
+
+                <!-- 新闻列表 -->
+
+                <ListView
+                    android:id="@+id/lv_news"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp" 
+                    android:headerDividersEnabled="false" 
+                    android:divider="@null">
+                </ListView>
+            </LinearLayout>
+            
+        </LinearLayout>
+    </com.example.ui.ListScrollView>
+
+</LinearLayout>

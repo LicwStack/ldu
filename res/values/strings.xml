@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ldu</string>
+    <string name="title_activity_zhu">ZhuActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+    <string name="iv_logo">university_logo</string>
+    <string name="et_username_hint">请输入用户名&#8230;</string>
+    <string name="et_password_hint">请输入密码&#8230;</string>
+    <string name="login">登录</string>
+    <string name="register_txt1">还没有账号？</string>
+    <string name="register_txt2">立即注册 ></string>
+    <string name="hello">Hello World, MyGuideViewActivity!</string>
+    <string name="text1">欢迎来到人在鲁大。在这里你可以更好的生活在我们的大学，更好的了解校园资讯</string>
+    <string name="text2">在这里你可以看到我们学校的校历，可以看到学校的新闻资讯，在这里你可以看到我们学校的校历，可以看到学校的新闻资讯，在这里你可以看到我们学校的校历，可以看到学校的新闻资讯，</string>
+    <string name="text3">在这里可以发布失误招领信息，看看有没有你丢失的宝贝呀？在这里可以发布失误招领信息，看看有没有你丢失的宝贝呀？在这里可以发布失误招领信息，看看有没有你丢失的宝贝呀？。</string>
+    <string name="text4">这里你可以发布兼职信息，为了给予广大应技大学子放心实在的服务，请不要发布没有价值的垃圾信息，如果有勤工助学的兼职，你可以留下联系方式，同时想找兼职的同学也可以来这里查看有用的兼职信息哦。</string>
+    <string name="text5">如果你觉得这个应用还不错，可以在这里把它分享给你的朋友哈。</string>
+    <string name="text6">Google搜索引擎已经赢得全球范围的赞誉，而这一切都要归功于Google开创性的MapReduce。Google搜索引擎算法只是其搜索引擎的一部分，在后台支持Google算法的基础设施才是真正的幕后英雄，其基础设施可快速的索引链接成千上万台普通服务器。MapReduce的成功也直接推动了Hadoop的发展。</string>
+    <string name="title_activity_mine">MineActivity</string>
+    <string name="title_activity_mine_info">MineInfoActivity</string>
+    <string name="title_activity_mine_info_edit">MineInfoEditActivity</string>
+    <string name="title_activity_mine_soft">MineSoftActivity</string>
+    <string name="title_activity_message">MessageActivity</string>
+	
+    <string name="btn_public">发布信息</string>
+</resources>
